@@ -37,5 +37,6 @@ function buggyFunction() {
 module.exports = { add, subtract, multiply, divide, isEven, isOdd, buggyFunction };
 
 function multiply(a, b) { return a * b; }
+
+function multiply(a, b) { return a * b; }
 function divide(a, b) { return a / b; }
-function buggyFunction() { return undefinedVar + 10; }
