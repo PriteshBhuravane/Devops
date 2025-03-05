@@ -1,1 +1,1 @@
-console.log("New Update");
+console.log("Hello, World!");
